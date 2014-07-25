@@ -1,4 +1,4 @@
-##Welcome to the OWASP Testing Guide 4.0
+###Welcome to the OWASP Testing Guide 4.0
 
 “Open and collaborative knowledge: that is the OWASP way.”
 With V4 we realized a new guide that will be the standard de-facto  guide to perform Web Application Penetration Testing.
@@ -14,7 +14,7 @@ Or drop an e-mail to the project leaders:
 [mailto:matteo.meucci@owasp.org Matteo Meucci]
 
 
-##Version 4.0
+###Version 4.0
 
 The OWASP Testing Guide version 4 improves on version 3 and creates new sections and controls. 
 
@@ -27,14 +27,14 @@ This new version has added  the following chapters: <br>
 All the other chapters have been improved and there are now 87 controls (64 controls in v3).
 
 
-##Copyright and License
+###Copyright and License
 
 Copyright (c) 2014 The OWASP Foundation.
 
 This document is released under the [http://creativecommons.org/licenses/by-sa/2.5/ Creative Commons 2.5 License]. Please read and understand the license and copyright conditions.
 
 
-##Revision History
+###Revision History
 
 The Testing Guide v4 will be released in 2014. The Testing guide originated in 2003 with Dan Cuthbert as one of the original editors. It was handed over to Eoin Keary in 2005 and transformed into a wiki. Matteo Meucci has taken on the Testing guide and is now the lead of the OWASP Testing Guide Project. From 2012 Andrew Muller co-leadership the project with Matteo Meucci.
 
@@ -54,7 +54,7 @@ The Testing Guide v4 will be released in 2014. The Testing guide originated in 2
 : "The OWASP Testing Guide", Version 1.0
 
 
-##Editors
+###Editors
 
 '''Andrew Muller''': OWASP Testing Guide Lead since 2013.<BR>
 
@@ -65,12 +65,12 @@ The Testing Guide v4 will be released in 2014. The Testing guide originated in 2
 '''Daniel Cuthbert''': OWASP Testing Guide 2003-2005 Lead.
 
 
-##v4 Authors
+###v4 Authors
 
 TODO
 
 
-##v3 Authors
+###v3 Authors
 
 {| border="0" 
 | valign="top" |
@@ -103,7 +103,7 @@ TODO
 |}
 
 
-##v3 Reviewers
+###v3 Reviewers
 
 {| border="0" 
 | valign="top" |
@@ -117,7 +117,7 @@ TODO
 |}
 
 
-##v2 Authors
+###v2 Authors
 
 {| border="0" 
 | valign="top" |
@@ -167,7 +167,7 @@ TODO
 |}
 
 
-##v2 Reviewers
+###v2 Reviewers
 
 {| border="0" 
 | valign="top" |
@@ -203,7 +203,7 @@ TODO
 |}
 
 
-##Trademarks
+###Trademarks
 
 * Java, Java Web Server, and JSP are registered trademarks of Sun Microsystems, Inc.
 * Merriam-Webster is a trademark of Merriam-Webster, Inc.
