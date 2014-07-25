@@ -16,15 +16,17 @@ Or drop an e-mail to the project leaders:
 
 ###Version 4.0
 
-The OWASP Testing Guide version 4 improves on version 3 and creates new sections and controls. 
+The OWASP Testing Guide version 4 improves on version 3 in three ways:
 
-This new version has added  the following chapters: <br>
-- Identity Management Testing <br>
-- Error Handling <br>
-- Cryptography <br>
-- Client Side Testing <br>
+1. This version of the Testing Guide sought to integrate with the two other flagship OWASP documentation products: the Developers Guide and the Code Review Guide. To achieve this we aligned the testing categories and test numbering with those in other OWASP products. The aim of the Testing and Code Review Guides is to evaluate the security controls described by the Developers Guide. 
 
-All the other chapters have been improved and there are now 87 controls (64 controls in v3).
+2. All chapters have been improved and test cases expanded to 87 (64 test cases in v3) including the introduction of four new chapters and controls: 
+  * Identity Management Testing 
+  * Error Handling 
+  * Cryptography 
+  * Client Side Testing
+
+3. Finallly, this version of the Testing Guide encourages the community not to simply accept the test cases outlined in this guide. We encourage security testers to integrate with other software testers and devise test cases specific to the target application. As we find test cases that have wider applicability we encourage the security testing community to share them and contribute them to the Testing Guide. This will continue to build the application security body of knowledge and allow the development of the Testing Guide to be an iterative rather than monolithic process. 
 
 
 ###Copyright and License
