@@ -1,0 +1,25 @@
+==Phase 3: During Development==
+
+Theoretically, development is the implementation of a design. However, in the real world, many design decisions are made during code development. These are often smaller decisions that were either too detailed to be described in the design, or issues where no policy or standard guidance was offered. If the design and architecture were not adequate, the developer will be faced with many decisions. If there were insufficient policies and standards, the developer will be faced with even more decisions.
+
+
+===Phase 3.1: Code Walk Through===
+
+The security team should perform a code walk through with the developers, and in some cases, the system architects. A code walk through is a high-level walk through of the code where the developers can explain the logic and flow of the implemented code. It allows the code review team to obtain a general understanding of the code, and allows the developers to explain why certain things were developed the way they were. 
+
+The purpose is not to perform a code review, but to understand at a high level the flow, the layout, and the structure of the code that makes up the application.
+
+
+===Phase 3.2: Code Reviews===
+
+Armed with a good understanding of how the code is structured and why certain things were coded the way they were, the tester can now examine the actual code for security defects. 
+
+Static code reviews validate the code against a set of checklists, including:
+
+* Business requirements for availability, confidentiality, and integrity.
+* OWASP Guide or Top 10 Checklists for technical exposures (depending on the depth of the review).
+* Specific issues relating to the language or framework in use, such as the Scarlet paper for PHP or Microsoft Secure Coding checklists for ASP.NET.
+* Any industry specific requirements, such as Sarbanes-Oxley 404, COPPA, ISO/IEC 27002, APRA, HIPAA, Visa Merchant guidelines, or other regulatory regimes.
+In terms of return on resources invested (mostly time), static code reviews produce far higher quality returns than any other security review method and rely least on the skill of the reviewer. However, they are not a silver bullet and need to be considered carefully within a full-spectrum testing regime. 
+
+For more details on OWASP checklists, please refer to [[OWASP Guide Project|OWASP Guide for Secure Web Applications]], or the latest edition of the [[OWASP Top 10]].
