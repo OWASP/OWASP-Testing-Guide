@@ -1,0 +1,39 @@
+==Phase 2: During Definition and Design==
+
+===Phase 2.1: Review Security Requirements===
+
+Security requirements define how an application works from a security perspective. It is essential that the security requirements are tested. Testing in this case means testing the assumptions that are made in the requirements and testing to see if there are gaps in the requirements definitions. 
+
+For example, if there is a security requirement that states that users must be registered before they can get access to the whitepapers section of a website, does this mean that the user must be registered with the system or should the user be authenticated? Ensure that requirements are as unambiguous as possible. 
+
+When looking for requirements gaps, consider looking at security mechanisms such as:
+
+* User Management 
+* Authentication
+* Authorization
+* Data Confidentiality
+* Integrity
+* Accountability
+* Session Management
+* Transport Security
+* Tiered System Segregation
+* Legislative and standards compliance (including Privacy, Government and Industry standards)
+
+
+===Phase 2.2: Review Design and Architecture===
+
+Applications should have a documented design and architecture. This documentation can include models, textual documents, and other similar artifacts. It is essential to test these artifacts to ensure that the design and architecture enforce the appropriate level of security as defined in the requirements. 
+
+Identifying security flaws in the design phase is not only one of the most cost-efficient places to identify flaws, but can be one of the most effective places to make changes. For example, if it is identified that the design calls for authorization decisions to be made in multiple places, it may be appropriate to consider a central authorization component. If the application is performing data validation at multiple places, it may be appropriate to develop a central validation framework (ie, fixing input validation in one place, rather than in hundreds of places, is far cheaper).
+
+If weaknesses are discovered, they should be given to the system architect for alternative approaches.
+
+
+===Phase 2.3: Create and Review UML Models===
+
+Once the design and architecture is complete, build Unified Modeling Language (UML) models that describe how the application works. In some cases, these may already be available. Use these models to confirm with the systems designers an exact understanding of how the application works. If weaknesses are discovered, they should be given to the system architect for alternative approaches.
+
+
+===Phase 2.4: Create and Review Threat Models===
+
+Armed with design and architecture reviews and the UML models explaining exactly how the system works, undertake a threat modeling exercise. Develop realistic threat scenarios. Analyze the design and architecture to ensure that these threats have been mitigated, accepted by the business, or assigned to a third party, such as an insurance firm. When identified threats have no mitigation strategies, revisit the design and architecture with the systems architect to modify the design.
